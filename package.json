@@ -4,8 +4,9 @@
   "description": "To build a Chat application using OpenAI",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "nodemon ts-node-esm src/index.ts",
+    "dev": "nodemon src/index.ts",
     "build": "tsc",
+    "watch": "tsc -w",
     "start": "nodemon dist/index.js"
   },
   "author": "Priyanka Agarwal",
@@ -19,6 +20,7 @@
   "devDependencies": {
     "@types/node": "^24.3.0",
     "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.9.2"
   }
 }
