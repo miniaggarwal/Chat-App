@@ -4,10 +4,10 @@
   "description": "To build a Chat application using OpenAI",
   "main": "src/index.ts",
   "scripts": {
-    "dev": "nodemon src/index.ts",
+    "dev": "nodemon src/chatApp/index.ts",
     "build": "tsc",
     "watch": "tsc -w",
-    "start": "nodemon dist/index.js"
+    "start": "nodemon dist/chatApp/index.js"
   },
   "author": "Priyanka Agarwal",
   "license": "ISC",
